@@ -1,0 +1,133 @@
+.job-details-container {
+  background-color: #000000;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+.job-details-view-container {
+  width: 100%;
+  padding: 30px;
+}
+.skills {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+}
+.skills-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.skill-image-name-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  list-style-type: none;
+}
+.skills-img {
+  width: 45px;
+  margin-right: 10px;
+}
+.skills-name {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f1f5f9;
+  font-weight: 400;
+  margin: 0;
+}
+.life-at-company {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fff;
+  font-weight: 500;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.life-at-company-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+@media screen and (max-width: 767px) {
+  .life-at-company-container {
+    flex-direction: column;
+  }
+  .life-at-company-img {
+    width: 100%;
+  }
+}
+.description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #f8fafc;
+  font-weight: 300;
+  line-height: 1.5;
+  margin-top: 0;
+  margin-right: 30px;
+}
+.similar-jobs {
+  font-family: 'Roboto';
+  font-size: 22px;
+  color: #fff;
+  font-weight: 500;
+}
+.similar-jobs-container {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 767px) {
+  .similar-jobs-container {
+    flex-direction: column;
+  }
+}
+.failure-container {
+  display: flex;
+  background-color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.failure-heading {
+  font-weight: 500;
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #fff;
+}
+.failure-description {
+  font-weight: 400;
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #fff;
+}
+.failure-retry-button {
+  height: 40px;
+  width: 80px;
+  border: 0;
+  background-color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 15px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+}
+.description-anchor-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.anchor {
+  color: #6366f1;
+  font-family: 'Roboto';
+  font-size: 18px;
+  text-decoration: none;
+  margin-right: 5px;
+}
